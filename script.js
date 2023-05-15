@@ -23,6 +23,7 @@ var person = new Person("John", 30);
 person.greet();
 
 var employee = new Employee("Jane", 25, "Manager");
+employee.greet()
 employee.jobGreet()
 // Do not change code below this line
 window.Person = Person;
